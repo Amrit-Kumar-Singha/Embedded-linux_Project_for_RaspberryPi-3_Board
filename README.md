@@ -3,3 +3,4 @@
 # Project ---> Yocto on RaspberryPi3
 ## The whole project work has been done in WSL-2 Ubuntu 22.04.03 LTS.
 * For installation and setup followup the ```installation or setup``` folder.
+* For executing the Project followup the ```Project``` folder
