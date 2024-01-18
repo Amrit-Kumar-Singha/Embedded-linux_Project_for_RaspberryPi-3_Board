@@ -26,7 +26,11 @@ bitbake-layers add-layer ../../meta-openembedded/meta-multimedia/
 bitbake-layers add-layer ../../meta-openembedded/meta-networking/
 bitbake-layers add-layer ../../meta-openembedded/meta-python/
 ```
-#### Now we can check the layers in the bblayers.conf file by putting up this command.
+### Now let's add the meta-raspberrypi layer to bblayers.conf file.
+```bash
+bitbake-layers add-layer ../../meta-raspberrypi/
+```
+### Now we can check the layers in the bblayers.conf file by putting up this command.
 ```bash
 bitbake-layers show-layers
 ```
