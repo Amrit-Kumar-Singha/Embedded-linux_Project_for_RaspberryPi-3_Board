@@ -8,7 +8,20 @@ git clone git://git.openembedded.org/meta-openembedded
 ls
 ```
 
-#### Run the environment script to setup the Yocto Environment and create build directory for RaspberryPi-3
+### All the three folder layers should have the same branch i.e. the ```master``` branch.
+```bash
+cd poky
+git checkout master
+cd ..
+cd meta-raspberrypi
+git checkout master
+cd ..
+cd meta-openembedded
+git checkout master
+cd ..
+```
+
+### Run the environment script to setup the Yocto Environment and create build directory for RaspberryPi-3
 ```bash
 cd poky
 source oe-init-build-env build_raspi
