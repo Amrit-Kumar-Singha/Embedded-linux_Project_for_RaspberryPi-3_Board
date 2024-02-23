@@ -1,5 +1,5 @@
 # Yocto Project Quick Build
-
+## This installation is for WSL 2.
 1. Install the Ubuntu 22.04.03 LTS from Microsoft Store.
 2. Make sure your Build Host meets the following requirements:
    * At least 90 Gbytes of free disk space.
